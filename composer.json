@@ -1,0 +1,26 @@
+{
+    "name": "mhe/imagetools-cl",
+    "description": "CLI demo for image tools module",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Martin Heise",
+            "email": "info@martinheise.de"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "mhe/imagetools": "dev-develop",
+        "ext-gd": "*",
+        "ext-imagick": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mhe\\ImagetoolsCli\\": "src/",
+            "Mhe\\ImagetoolsImagetoolsCli\\Tests\\": "tests/"
+        }
+    }
+}
